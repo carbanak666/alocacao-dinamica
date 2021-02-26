@@ -23,3 +23,5 @@ Se você colocar dois free() no seu programa, ele vai dar erro talvez execute ma
 se você quiser usar basta fazer assim:
 
 se tiver malloc e realloc que você queira, devolver a memoria para o sistema, coloca uma como free, ea outra como NULL.
+
+basta ver meu codigo realloc.c da uma lida que você vai entender :)
