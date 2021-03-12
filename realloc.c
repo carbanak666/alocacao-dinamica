@@ -11,9 +11,9 @@ int main(void)
 
 	printf("%i\n", *m); //printando o tamanho da memoria alocada.
 
-    int *f = (int *) realloc(m, sizeof(int));
+        int *f = (int *) realloc(m, sizeof(int));
 
-    *f = 30; //setando o valor do realloc.
+        *f = 30; //setando o valor do realloc.
 
 	printf("%i\n", *f); //printando o tamanho da memoria alocada.
 
