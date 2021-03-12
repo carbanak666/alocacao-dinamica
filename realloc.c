@@ -11,14 +11,13 @@ int main(void)
 
 	printf("%i\n", *m); //printando o tamanho da memoria alocada.
 
-        int *f = (int *) realloc(m, sizeof(int));
+    int *f = (int *) realloc(m, sizeof(int));
 
-        *f = 30; //setando o valor do realloc.
+    *f = 30; //setando o valor do realloc.
 
 	printf("%i\n", *f); //printando o tamanho da memoria alocada.
 
-	free(m); //devolve a memoria pro sistema
-	f = NULL; //devolvendo a memoria para o sistema, um codigo não pode usar 2 free() ou mais.
+	free(f); //devolve a memoria pro sistema
 
 	return 0;
 }
