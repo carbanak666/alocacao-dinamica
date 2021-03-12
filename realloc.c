@@ -17,7 +17,7 @@ int main(void)
 
 	printf("%i\n", *f); //printando o tamanho da memoria alocada.
 
-	free(f); //devolve a memoria pro sistema
+	free(f); //devolve a memoria
 
 	return 0;
 }
