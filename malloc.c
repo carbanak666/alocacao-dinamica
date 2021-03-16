@@ -11,7 +11,7 @@ int main(void)
 
 	printf("%i\n", *m); //printando o tamanho da memoria alocada
 
-	free(m); //devolve a memoria pro sistema
+	free(m); //Desalocar memoria alocada
 
 	return 0;
 }
